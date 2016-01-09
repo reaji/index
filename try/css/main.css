@@ -71,14 +71,14 @@ html, body{
 }
 
 @keyframes accessin2 {
-    0%{left: 50px;opacity: 0;}
-    20%{left: 50px;opacity: 0;}
+    0%{left: 65px;opacity: 0;}
+    20%{left: 65px;opacity: 0;}
     100% {left:10px;opacity: 1;}
 }
 
 @keyframes accessin3 {
-    0%{right: 50px;opacity: 0;}
-    20%{right: 50px;opacity: 0;}
+    0%{right: 65px;opacity: 0;}
+    20%{right: 65px;opacity: 0;}
     100% {right:10px;opacity: 1;}
 }
 
