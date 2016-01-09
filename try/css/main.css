@@ -1,0 +1,168 @@
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+    font-family: 'San Francisco', sans-serif;  
+}
+
+html, body{
+	margin: 0;
+
+}
+
+@keyframes accessin4 {
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#content{
+	position: relative;
+	overflow-x:hidden; 
+  animation: accessin4 3s ease-in-out;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#nav{
+	position: relative;
+	top:10px;
+  margin: 0 auto;
+  width: 500px;
+/*  background:yellow;*/
+  height: 43px;
+}
+
+@keyframes accessin {
+    from {transform: scale(1.5,1.5);opacity: 0;}
+    to {transform: scale(1,1);opacity: 1;}
+}
+
+@keyframes accessin2 {
+    0%{left: 50px;opacity: 0;}
+    20%{left: 50px;opacity: 0;}
+    100% {left:10px;opacity: 1;}
+}
+
+@keyframes accessin3 {
+    0%{right: 50px;opacity: 0;}
+    20%{right: 50px;opacity: 0;}
+    100% {right:10px;opacity: 1;}
+}
+
+
+
+.title{
+	animation: accessin 1s ease-in-out;
+	font-size: 26pt;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 6px;
+	margin: 0 auto;
+  width: 222px;
+  cursor: pointer;
+  padding: 0 0 0 9px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.manu{
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 0 auto;
+    letter-spacing: 0.6px;
+}
+
+.manu.about{
+  position: absolute;
+  top:12px;
+  left: 10px;
+  height: 21px;
+  animation: accessin2 2s;
+  cursor: pointer;
+
+}
+
+.manu.about:hover{
+  border-bottom: 0.5px solid black;
+}
+
+.manu.works:hover{
+  border-bottom: 0.5px solid black;
+}
+
+.manu.works{
+  position: absolute;
+  top:12px;
+  right: 10px;
+  height: 21px;
+  animation: accessin3 2s;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 870px) {
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+
+
+
+
+}
+
+@media screen and (max-width: 350px) {
+
+
+}
+
+
+
+
+
