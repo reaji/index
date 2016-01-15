@@ -381,9 +381,7 @@ p{
 }
 
 .item{
-  width: 100%;
   margin: 50px auto 0 auto;
-  /*background: yellow;*/
 }
 
 .brief{
@@ -470,7 +468,9 @@ table {
 
 }
 
-
+.item{
+  margin: 0 auto 0 auto;
+}
 
 
 }
