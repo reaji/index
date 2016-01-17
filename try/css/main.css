@@ -230,8 +230,7 @@ td{
 .shareme{cursor: pointer;}
 
 .comp{
-  margin: 5px auto 0 auto;
-  height: 12px;
+  height: 10px;
 }
 
 h1{
@@ -250,7 +249,7 @@ h2{
 
 h3{
   font-size: 14pt;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0 auto;
   letter-spacing: 0.6px;
 }
@@ -263,10 +262,11 @@ h4{
 }
 
 h6{
-  font-size: 9pt;
-  font-weight: 200;
+  font-size: 10pt;
+  font-weight: 500;
   letter-spacing: 0.5px;
-  margin: 0 auto;
+  margin: 2px auto 15px;
+  color: grey;
 }
 
 p{
@@ -274,6 +274,7 @@ p{
   font-weight: 400;
   margin: 0 auto;
   letter-spacing: 0.5px;
+  line-height: 150%;
 }
 
 /*mybutttttttttttttttttttttttttttt*/
@@ -420,7 +421,7 @@ p{
 
 .thumbnail{
   width: 100%;
-  /*height: 310px;*/
+  height: 500px;
   margin: 0 auto;
   /*padding-left: 4.5px;*/
 /*  background-image: url("../assets/icons/webtag.svg");
@@ -434,7 +435,7 @@ p{
 }
 
 .detailsm{
-  margin: 20px auto 70px auto;
+  margin: 40px auto 55px auto;
   display: block;
   width: 70%;
   /*width: 310px;*/
@@ -447,11 +448,13 @@ table {
     width: 100%;
 }
 
+#mybutt{position: relative;}
+
 }
 
 
 @media screen and (max-width: 1025px) {
-  .mysharebuttom1{
+.mysharebuttom1{
   color: #3b5998;
   
 }
@@ -462,15 +465,13 @@ table {
 }
 
 
-.mysharebuttom3{
-  color: #3f729b;
-}
+.mysharebuttom3{color: #3f729b;}
 }
 
 @media screen and (max-width: 767px) {
-  #mybutt{
-  position: relative;
-}
+
+
+.thumbnail{height: 500px;}
 
 }
 
