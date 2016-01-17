@@ -447,8 +447,28 @@ table {
     width: 100%;
 }
 
+}
 
-#mybutt{
+
+@media screen and (max-width: 1025px) {
+  .mysharebuttom1{
+  color: #3b5998;
+  
+}
+
+
+.mysharebuttom2{
+  color: #55acee;
+}
+
+
+.mysharebuttom3{
+  color: #3f729b;
+}
+}
+
+@media screen and (max-width: 767px) {
+  #mybutt{
   position: relative;
 }
 
