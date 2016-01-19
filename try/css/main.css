@@ -89,7 +89,7 @@ html, body{
 }
 
 .title{
-	animation: accessin 1s ease-in-out;
+	animation: accessin 1.5s ease-in-out;
 	font-size: 26pt;
 	font-weight: 700;
 	text-align: center;
