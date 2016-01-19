@@ -162,7 +162,7 @@ a{
 
 .item{
   width: 100%;
-  margin: 200px auto 0 auto;
+  margin: 150px auto 0 auto;
   /*background: yellow;*/
 }
 
@@ -179,7 +179,7 @@ a{
 
 .thumbnail{
   width: 620px;
-  max-height: 310px;
+  /*max-height: 310px;*/
   margin: 0 auto;
   /*padding-left: 4.5px;*/
 /*  background-image: url("../assets/icons/webtag.svg");
