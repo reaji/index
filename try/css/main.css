@@ -107,6 +107,7 @@ a{
 
 
 
+
 .manu{
     display: block;
     font-size: 1.17em;
@@ -133,6 +134,7 @@ a{
 
 .manu.about:hover{
   border-bottom: 1px solid black;
+  color: black;
 }
 
 /*.manu.about:active{
@@ -141,6 +143,7 @@ a{
 
 .manu.works:hover{
   border-bottom: 1px solid black;
+  color: black;
 }
 
 /*.manu.works:active{
@@ -196,6 +199,25 @@ a{
   width: 189px;
   text-align: center;
   /*padding: 0 50px 0 50px;*/
+}
+
+.detailp{
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.briefp{
+  text-align: left;
+}
+
+.deslink{
+  transition:0.5s;
+}
+
+.deslink:hover{
+  /*text-decoration: underline;*/
+  transition:0.5s;
+  letter-spacing: 2px;
 }
 
 table, td, th {
