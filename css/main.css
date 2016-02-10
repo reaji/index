@@ -79,6 +79,7 @@ html, body{
   width: 500px;
 /*  background:yellow;*/
   height: 43px;
+  z-index: +1;
 }
 
 @keyframes accessin {
