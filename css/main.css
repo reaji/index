@@ -115,9 +115,14 @@ html, body{
 .item h1{
   max-width: 700px;
   letter-spacing: 2px;
+  padding: 0 15px;
 }
 
-
+.item span{
+  font-weight: 500;
+  text-indent: 20px;
+  color: grey;
+}
 
 a{
   text-decoration: none;
@@ -183,6 +188,8 @@ a{
 
 
 .item{
+  position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   margin: 0 auto 0 auto;
@@ -249,11 +256,6 @@ table, td, th {
 
 table {
     width: 100%;
-}
-
-td{
-    /*height: 310px;*/
-    /*vertical-align: middle;*/
 }
 
 
@@ -439,13 +441,13 @@ p{
 
 @media screen and (max-width: 1000px) {
 
-#content{
+/*#content{
   width: 100%;
   position: relative;
-  overflow-x:hidden; 
+  overflow:hidden; 
   animation: accessin4 3s ease-in-out;
   margin: 0 auto;
-}
+}*/
 
 /*.item{
   margin: 50px auto 0 auto;
@@ -495,7 +497,7 @@ table {
     overflow: hidden;
 }
 
-#mybutt{position: relative;}
+#mybutt{position: absolute;}
 
 }
 
@@ -516,6 +518,14 @@ table {
 @media screen and (max-width: 768px) {
 
 .thumbnail{max-height: 500px;}
+
+.item .h1{
+  width: 90%;
+}
+
+td, tr, table{
+  width: 100%;
+}
 
 }
 
