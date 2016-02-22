@@ -106,10 +106,13 @@ html, body{
 	text-align: center;
 	letter-spacing: 6px;
 	margin: 0 auto;
-  width: 222px;
+  width: 226px;
   cursor: pointer;
-/*  padding: 0 0 0 6px;
-*/}
+  text-indent: 6px;
+}
+
+
+
 
 a{
   text-decoration: none;
