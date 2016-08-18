@@ -92,7 +92,7 @@ height: 2px;
 }
 
 .menu.about:hover{
-  color: #666666;
+  color: #333333;
 
 }
 
@@ -106,7 +106,7 @@ height: 2px;
 }
 
 .menu.work:hover{
-  color: #666666;
+  color: #333333;
 }
 
 /*.menu.work:active{
