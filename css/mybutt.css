@@ -9,6 +9,8 @@
 /*  border-top: .08em solid #444;
   border-bottom: 1px solid #444 outset;*/
 /*  opacity: 0.95;*/
+ -webkit-transition: all .5s cubic-bezier(.25,.46,.45,.94);
+    transition: all .5s cubic-bezier(.25,.46,.45,.94);
 }
 
 .mycopyright{
@@ -129,3 +131,19 @@ cursor: default;
 #mybutt{position: absolute;}
 
 }
+
+@media screen and (max-width: 520px) {
+
+#mybutt{
+  position: fixed;
+  top: -15px;
+  bottom: auto;
+}
+
+#mybutt:hover{
+    top: 0;
+    bottom: auto;
+}
+
+}
+
