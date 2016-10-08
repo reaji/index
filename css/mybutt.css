@@ -136,13 +136,8 @@ cursor: default;
 
 #mybutt{
   position: fixed;
-  top: -15px;
+  top: 0;
   bottom: auto;
-}
-
-#mybutt:hover{
-    top: 0;
-    bottom: auto;
 }
 
 }
