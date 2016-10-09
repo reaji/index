@@ -176,7 +176,7 @@ height: 2px;
     /*transform: rotate(180deg);*/
      -webkit-transition: all .5s cubic-bezier(.25,.46,.45,.94) .1s;
     transition: all .5s cubic-bezier(.25,.46,.45,.94) .1s;
-    animation: accessin4 3s ease-in-out;
+    animation: accessin5 2.5s ease-in-out;
 }
 
 .title{
@@ -203,9 +203,10 @@ height: 2px;
     100% {right:0px;opacity: 1;}
 }
 
-@keyframes accessin4 {
-    0%{opacity: 0;}
-    100% {opacity: 1;}
+@keyframes accessin5 {
+    0%{box-shadow: rgba(0,0,0,0) 0 -2px 3px;}
+    65%{box-shadow: rgba(0,0,0,0) 0 -2px 3px;}
+    100% {box-shadow: rgba(0,0,0,0.16) 0 -2px 3px;}
 }
 
 .menu.about{
