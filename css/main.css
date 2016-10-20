@@ -454,7 +454,7 @@ body,html{
 
 .item h1{max-width: none; font-size: 36pt;}
 
-#featured{height: auto;  margin: 63px auto 0;   max-height: none;}
+#featured{height: auto;  margin: 62px auto 0;   max-height: none;}
 
 #featured1{ width: 100%; padding: 0; padding-top: 56.25%;}
 #featured1 h1{ position:absolute; top: 0; width:100%; text-align: center;color: #fff; padding: 0; }
