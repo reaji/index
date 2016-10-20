@@ -1,6 +1,6 @@
 /*mybutttttttttttttttttttttttttttt*/
 #mybutt{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 20px;
@@ -125,12 +125,7 @@ cursor: default;
 
 }
 
-@media screen and (max-width: 1000px) {
 
-
-#mybutt{position: absolute;}
-
-}
 
 @media screen and (max-width: 520px) {
 
