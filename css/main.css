@@ -449,6 +449,7 @@ table, td, th {
 body,html{
   height: auto;
 }
+.who{  display: none; }
 
 .item{height: auto;}
 
