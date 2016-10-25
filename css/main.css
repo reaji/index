@@ -507,7 +507,7 @@ body,html{
 
 
 
-@media screen and (min-height:  1360px) {
+@media screen and (min-height: 880px) and (max-width: 1025px) {
 
 table, td, th {
     overflow: auto;
